@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    background-color: white;
+    width: 100%;
+    height: 25px;
+}
+
+
+
+ul {
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    
+   
+}
+
+.nav-link {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+
+#welcome-section {
+    width: 100%;
+    height: 100vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(45deg, rgba(0,0,0,0.8253676470588236) 0%, rgba(47,47,47,0.9710259103641457) 35%);
+}
+
+.main-title {
+    margin-top: 10px;
+    font-family: "roboto mono", sans-serif;
+    font-size: 35px;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+    padding-top: 300px;
+}
+
+.sub-title {
+    font-family: "open-sans", sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 50px;
+    
+   
+}
+
+.main-title-projects {
+    font-family: "roboto mono", sans-serif;
+    font-size: 35px;
+    color: black;
+    text-align: center; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+  
+}
+.project-tile, .project-tile-text {
+    width: 85%;
+    text-align: center; 
+    padding-top: 25px;
+    
+}
+
+.project-tile-text {
+    font-family: "roboto mono", sans-serif;
+    font-size: 15px;
+    color: white;
+    width: 85%;
+    background: rgb(0,0,0);
+    background: linear-gradient(45deg, rgba(0,0,0,0.8253676470588236) 0%, rgba(47,47,47,0.9710259103641457) 35%);
+    margin: 0 auto;
+    position: relative;
+    bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+
+}
+
+#project-pics {
+    width: 85%;
+}
+    
+.button{
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    
+}
+
+#my-profile-button {
+   background: #161718;
+   background-image: -webkit-linear-gradient(top, #161718, #7C8087);
+   background-image: -moz-linear-gradient(top, #161718, #7C8087);
+   background-image: -ms-linear-gradient(top, #161718, #7C8087);
+   background-image: -o-linear-gradient(top, #161718, #7C8087);
+   background-image: -webkit-gradient(to bottom, #161718, #7C8087);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: "roboto mono", sans-serif;
+   font-size: 15px;
+   font-weight: 300;
+   padding: 10px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #FFFFFF;
+   border: solid black 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   width: 40%; 
+}
+
+#my-profile-button:hover {
+   background: #0D0D0D;
+   border: solid #000000 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   text-decoration: none;
+}
+
+#my-profile-button:focus {
+   background: #0D0D0D;
+   border: solid #000000 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   text-decoration: none;
+}
+
+#profile-link:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#contact-section {
+    width: 100%;
+    background-color: black;
+    text-align: center;
+   
+    
+}
+
+
+.contact-section-text{
+    font-family: "roboto mono", sans-serif;
+    font-size: 35px;
+    color: white;
+    text-align: center; 
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    
+}
+
+.facebook {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    
+    
+   
+    
+    
+}
+
+.twitter {
+    width: 100%;
+     padding-top: 10px;
+     padding-bottom: 10px;
+
+  
+    
+}
+
+.github {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+}   
+
+
+#social {
+    width: 10%;
+}
+
+
+   
+   
+   @media (min-width: 500px) {
+#contact-section {
+    padding-bottom: 50px;
+   
+    
+}
+    .facebook {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline;
+    padding-bottom: 0;  
+    padding-top: 20px;
+    
+}
+
+.twitter {
+    width: 100%;
+     padding-left: 10px;
+     padding-right: 10px;
+     display: inline;
+    padding-bottom: 0;
+    padding-top: 20px;
+
+    
+}
+
+.github {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline;
+    padding-bottom: 0;
+    padding-top: 20px;
+   } 
+   }
+
+@media (min-width:800px) {
+    #navbar {
+    position: fixed;
+       
+}
+
+#project-pics {
+    width: 50%;
+}
+
+.project-tile-text {
+    font-family: "roboto mono", sans-serif;
+    font-size: 15px;
+    color: white;
+    width: 50%;
+    background: rgb(0,0,0);
+    background: linear-gradient(45deg, rgba(0,0,0,0.8253676470588236) 0%, rgba(47,47,47,0.9710259103641457) 35%);
+    margin: 0 auto;
+    position: relative;
+    bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+
+}
+
+.project-tile, .project-tile-text {
+    width: 50%;
+    text-align: center; 
+    padding-top: 25px;
+    margin: 0 auto;
+    
+}
+ 
+.button{
+    width: 25%;
+    margin: 20px auto;
+    
+}
+
+#social {
+    width: 50px;
+    padding: 25px;
+
+}
+}
+
+
